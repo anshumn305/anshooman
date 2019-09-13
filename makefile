@@ -5,8 +5,6 @@ README.md: guessgame.sh
 	echo "\n**Description**: program *guessgame.sh*">> README.md
 	echo -n "\n**Make date**: " >> README.md
 	date >> README.md
-	echo -n "\n**Make date**: " >> README.md
-	time >> README.md
 	echo -n "\n**Number of lines in guessgame.sh:** " >> README.md
 	grep -c '' guessgame.sh >> README.md
 
